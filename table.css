@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    position:relative;
+    width: 1070px;
+    height: 70px;
+
+}
+.child1{
+    color: orange;
+    flex: 1;
+}
+.child2{
+    flex: 2;
+    color: rgb(72, 72, 156);
+}
+.parent1{
+    width: 1060px;
+    height: 100%;
+}
+.child3{
+    background-color: rgb(85, 85, 209);
+    height: 50px;
+    position:relative;
+}
