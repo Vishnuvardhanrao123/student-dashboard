@@ -16,26 +16,28 @@
     background-color: white;
     border-radius: 10px;
 }
-/*.dropdown{
-    background-color: white;
-    position: absolute;
-    top: 120;
-   
-}
-.dropdown li{
-    color: black;
-}
 .profile{
+    
     position: relative;
 }
-.profile:hover .dropdown{
+   .dragdrop{
+    display: none; 
+    position: absolute;
+    top: 80%;
+    left: 90%;
+   }
+   .profile:hover{
+      border: 5px, blue, solid;
+      border-radius: 50%;
+   }
+.profile:hover~.dragdrop{
+    border: 5px,blue, solid;
     display: block;
-
 }
-.child1:hover img{
-    outline: 2px solide greenyellow;
-    
-}*/
+
+
+
+
 a{
     text-decoration: none;
     color: black;
