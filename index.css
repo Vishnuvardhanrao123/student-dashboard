@@ -17,7 +17,7 @@
     border-radius: 10px;
 }
 .profile{
-    
+    border-radius: 50%;
     position: relative;
 }
    .dragdrop{
@@ -25,14 +25,21 @@
     position: absolute;
     top: 80%;
     left: 90%;
+    list-style-type: none;
+    border: 2px solid rgb(53, 183, 206);
+    width: 70px;
+    height: 60px;
+
    }
    .profile:hover{
-      border: 5px, blue, solid;
+      border: 5px, rgb(63, 226, 238), solid;
       border-radius: 50%;
    }
 .profile:hover~.dragdrop{
-    border: 5px,blue, solid;
+   
     display: block;
+    
+
 }
 
 
